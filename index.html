@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- <button class="button">CHANGE SIZE</button> -->
+    
+    <div class="topContainer">
+        <div class="displayBar">
+            <div id="sizeDisplay">16 X 16</div>
+            <div id="colorDisplay">
+                <label for="colorSelector">COLOR:</label>
+                <select name="colorSelector" id="colorSelector">
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="random">Random</option>
+                </select>
+            </div>
+            <div id="flowDisplay">FLOW: 10</div>
+        </div>
+    </div>
+    <div class="botContainer">
+        <div class="leftContainer">
+            <div id="size+1">size+1</div>
+            <div id="size+10">size+10</div>
+            <div id="size-1">size-1</div>
+            <div id="size-10">size-10</div>
+            <div id="canvasBrighten">Brighten Canvas</div>
+            <div id="canvasDarken">Darken Canvas</div>
+            <div id="clear">clear</div>
+        </div>
+        <div class="middleContainer">
+            <div class="container"></div>
+        </div>
+        <div class="rightContainer">
+            <div id="flow+1">flow+1</div>
+            <div id="flow+10">flow+10</div>
+            <div id="flow-1">flow-1</div>
+            <div id="flow-10">flow-10</div>
+        </div>
+    </div>
+</body>
+</html>

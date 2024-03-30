@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 40.5dvw;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 40dvw;
+}
+
+.leftContainer,
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 22.5dvw;
+    align-items: center;
+}
+
+.leftContainer div,
+.rightContainer div {
+    border: 1px solid rgb(255, 255, 255);
+    width: 10dvw;
+    text-align: center;
+    margin-top: 2dvw;
+}
+
+.leftContainer div:hover,
+.rightContainer div:hover {
+    box-shadow: 0 0 .1dvw .1dvw rgb(255, 255, 255);
+}
+
+.container div {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.button {
+    border: 2px solid rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    max-width: fit-content;
+    padding: 1dvw;
+    margin-top: 2dvw;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
+}
+
+.displayBar {
+    display: flex;
+    margin: 1dvw;
+}
+
+.displayBar div {
+     width: 16dvw;
+     margin: 0 6.23dvw;
+     border: 1px solid rgb(255, 255, 255);
+     text-align: center;
+}
+
+.botContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
